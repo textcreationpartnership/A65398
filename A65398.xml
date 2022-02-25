@@ -1,0 +1,729 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The poets complaint a poem : to which is added The character of poetry, written in prose.</title>
+            <author>T. W.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 13 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65398</idno>
+            <idno type="STC">Wing W127A</idno>
+            <idno type="STC">ESTC R33757</idno>
+            <idno type="EEBO-CITATION">13553767</idno>
+            <idno type="OCLC">ocm 13553767</idno>
+            <idno type="VID">100245</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65398)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 100245)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1558:61)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The poets complaint a poem : to which is added The character of poetry, written in prose.</title>
+                  <author>T. W.</author>
+               </titleStmt>
+               <extent>[4], 20 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for D. Brown ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Dedication signed: T.W.</note>
+                  <note>"In part the same as Poeta de tristibus, or, The Poet's complaint" (Wing P2727)--NUC pre-1956 imprints.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-11</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2011-11</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:100245:1"/>
+            <pb facs="tcp:100245:1" rendition="simple:additions"/>
+            <p>THE Poets Complaint, A POEM.</p>
+            <p>To which is added THE CHARACTER of POETRY; Written in PROSE.</p>
+            <q>
+               <bibl>
+                  <hi>Shadwell,</hi> in his Epiſtle to the <hi>Libertine.</hi>
+               </bibl>
+               <l>S' Death! what a Devil would ye have us doe,</l>
+               <l>Each take a Priſon, and there humbly ſue,</l>
+               <l>Angling for ſingle Money in a Shoe.</l>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>D. Brown,</hi> at the Black-Swan without <hi>Temple-Bar,</hi> 1682.</p>
+         </div>
+         <div rend="italic" type="dedication">
+            <pb facs="tcp:100245:2" rendition="simple:additions"/>
+            <pb facs="tcp:100245:2"/>
+            <head>The Author's EPISTLE To a Perſon of QUALITY.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>MY Obedience to your Commands ſo happily concentring with my in<g ref="char:EOLhyphen"/>clination, to this Subject, have in leſs than three days ſpace producted, what here you ſee. To you I need make no Apo<g ref="char:EOLhyphen"/>logy for it's artleſs habit, who very well know my want of years, and a neceſſary ex<g ref="char:EOLhyphen"/>perience in this Ages humor, having never had more than two Months converſation in <hi rend="bold roman">London.</hi> But I muſt confeſs that was ſufficient to inſtruct me in this Subject; for among all the Poets I was in company with, I heard nothing but their complaints, who unmercifully damn'd both the times, and one another, neither have I ſeen a mo<g ref="char:EOLhyphen"/>dern Play, but either begun or ended in the ſame tune, ſome of which you will find
+<pb facs="tcp:100245:3"/>quoted in this Poem. And as for the Cha<g ref="char:EOLhyphen"/>racter of Poetry, it is a piece I had lying by me, which I think is a more correct and a ſeriouſer thought, than is the Poem, moſt of which was writ <hi rend="bold roman">Ex tempore,</hi> and too morrow being the day I take ſhipping I wanted leiſure to tranſcribe it. Beſides you know I never lov'd to take much pains. Then as for my declaring my ſelf a Poet, yet per<g ref="char:EOLhyphen"/>forming it to illy, I know I muſt needs ſeem guilty of a vain oſtentation. But you knew before that I have been above this year an incorrigible ſcribler. But notwithſtanding my diſcontents at home, could I any where in <hi rend="bold roman">England</hi> have met with encouragements any way ſuitable to my endeavours, I had not in this paſſion ſhaken hands with it. But now I am in haſt to be gone, yet will ever remain</p>
+            <closer>
+               <signed>Your moſt humble Servant <hi>T. W.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb n="1" facs="tcp:100245:3"/>
+            <head>THE Poets Complaint.</head>
+            <lg>
+               <l>SInce here I'me banded up and down</l>
+               <l>By the keen blows of Fortunes frown,</l>
+               <l>When Art and Nature vainly ſtrive</l>
+               <l>To make th'unhappy Poet live,</l>
+               <l>I'le flie ſuch native Plagues, as theſe,</l>
+               <l>For refuge to the calmer Seas.</l>
+               <l>And try if bodeing Stars diſpence</l>
+               <l>Ev'ry where the ſame Influence,</l>
+               <l>Climes vary Conſtitutions, ſo</l>
+               <l>Why may not they change Fortunes too?</l>
+               <l>Through th' habitable World I'll go</l>
+               <l>And if that fails, I'll ſearch for New.</l>
+               <l>Wit ſomewhere has an happy Reign,</l>
+               <l>Or Nature gives us Thoughts in vain.</l>
+               <l>Here ſhe her Bounty does provide</l>
+               <l>For ev'ry thing that breaths beſide.</l>
+            </lg>
+            <lg>
+               <l>The Dunce made Batchelor of Art</l>
+               <l>Some Fuſtian Sermon learns by heart:</l>
+               <l>Then Preaches to a Country-Squire,</l>
+               <l>Who his deep Learning does admire,</l>
+               <l>And gives him Six-ſcore pounds a Year.</l>
+               <l>Then he muſt marry th' Chamber-maid</l>
+               <l>Who is forſooth a Miſtreſs made.</l>
+               <l>So he goes on with a fair hope,</l>
+               <l>And of his Pulpit makes a Shop.</l>
+               <pb n="2" facs="tcp:100245:4"/>
+               <l>Yet he eſteems himſelf but poor:</l>
+               <l>Your wooden Doctor can do more.</l>
+               <l>He is a Biſhop and can teach</l>
+               <l>Ye how to Pray, tho he can't Preach.</l>
+               <l>That's how to Pray, and Worſhip him</l>
+               <l>Elſe the old Bard looks monſtrous grim.</l>
+               <l>And to correct ye ſtraight will ſend</l>
+               <l>His <hi>Excommunic'm Capiend'.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Here perhaps Reader you ſurmiſe,</l>
+               <l>That I the reverend Gown deſpiſe;</l>
+               <l>Whoſe Royal Function I approve,</l>
+               <l>Next to the Miniſters Above.</l>
+               <l>All I deſign'd was to debate</l>
+               <l>On the unequall Acts of Fate,</l>
+               <l>Who cheiſly Fools and Knaves prefer,</l>
+               <l>Perhaps, 'cauſe only ſuch do worſhip Her.</l>
+            </lg>
+            <lg>
+               <l>Then there are mighty Peers o' th' Realm,</l>
+               <l>Whoſe conduct helps to ſteer the Helm:</l>
+               <l>They're great pretenders unto Wit.</l>
+               <l>And that they may ſeem to incourage it</l>
+               <l>They'll have a Poet at their Tail:</l>
+               <l>And that to know him they mayn't fail,</l>
+               <l>He has an old faſhion thread-bare Coat,</l>
+               <l>Foul Linnen, Hat not worth a Groat;</l>
+               <l>One points and cries, there goes <hi>Long-lane,</hi>
+               </l>
+               <l>Another cries, he's Long-and-Lean.</l>
+               <l>For like one newly fluxt he'l crawl,</l>
+               <l>And lets the Foot-Boys take the Wall.</l>
+               <l>But when to th' Tavern they do go,</l>
+               <l>Their Honours will more freedom ſhow;</l>
+               <pb n="3" facs="tcp:100245:4"/>
+               <l>There they may Swagger Swear and Lye,</l>
+               <l>And doe any thing, but Pay:</l>
+               <l>Damn ye, I din'd with ſuch a Lord to Day,</l>
+               <l>And ſuch a Lord did like my Play:</l>
+               <l>And without Vanity it is</l>
+               <l>The beſt I writ, my Maſter-peice.</l>
+            </lg>
+            <lg>
+               <l>Obſerve the empty Citizen,</l>
+               <l>That but in ſhape excel the Swine:</l>
+               <l>Thoſe profane Atheiſts that do hold,</l>
+               <l>There is no Deity but Gold.</l>
+               <l>They hate the Poet, 'cauſe he's poor,</l>
+               <l>And but the Golden Calf adore.</l>
+               <l>They ſay our Plays are wicked dear,</l>
+               <l>Th' Expence in Ballads would go far:</l>
+               <l>And I proteſt; I've heard ſome ſay,</l>
+               <l>Plays are a kind of Popery.</l>
+               <l>I' th' City-ſhops they 're thought profane,</l>
+               <l>As were Mince-pies in <hi>Cromwel</hi>'s Reign:</l>
+               <l>Where when for <hi>Dryden</hi>'s Works I came,</l>
+               <l>They ſtar'd and ſaid they never heard his Name,</l>
+               <l>But they had <hi>Baxter</hi> if you pleaſe,</l>
+               <l>And ſuch Diviner things as theſe.</l>
+               <l>But from damn'd Plays L. Mayor defend 'em,</l>
+               <l>And rather to a Conventicle ſend 'em.</l>
+            </lg>
+            <lg>
+               <l>See how the gaping Merchant range</l>
+               <l>To hunt his Cully o're th'Exchange:</l>
+               <l>Where ſuch a diſcord they compound,</l>
+               <l>Like the loud Billows, when your Ships they drown'd.</l>
+               <l>There they more fat in one warm Hour do ſweat,</l>
+               <l>Then a poor Poet in a year can get.</l>
+               <pb n="4" facs="tcp:100245:5"/>
+               <l>'Tis pretty ſport to ſee the Tailer,</l>
+               <l>The Shoemaker, and Millener,</l>
+               <l>And every Fop that ſells his Ware</l>
+               <l>O're the poor Poet domineer.</l>
+               <l>"Is this the Wit? the Devil take it,</l>
+               <l>"For without queſtion he did make it:</l>
+               <l>"The trueſt Wit is Honeſty,</l>
+               <l>"And to get Coyn your Debts to pay:</l>
+               <l>"Wit is an Aſs, where Money's ſlow,</l>
+               <l>"For 'tis that makes the Aſs to go.</l>
+               <l>"Why, I am but a mean Trades-man,</l>
+               <l>"And yet doe more than any Poet can.</l>
+               <l>"I walk the Street, yet fear no Dun</l>
+               <l>"Nor in their Debts, nor from them run:</l>
+               <l>"Nor yet for fear of being found out,</l>
+               <l>"Do I walk half a mile about.</l>
+               <l>The Bookſeller grows fat o'th' gain,</l>
+               <l>He ſucks from the poor Poets Brain:</l>
+               <l>He and the Printer, that do know</l>
+               <l>Nothing beyond the Chriſt-Croſs-Row,</l>
+               <l>Will their Heads together joyn</l>
+               <l>To rob the Poet of his Coyn.</l>
+               <l>He wreſty Drudge muſt toile and ſweat,</l>
+               <l>But honourable ſtabs to get.</l>
+               <l>And is forc't to ſigh and ſtay</l>
+               <l>For the Lawrels till he's gray.</l>
+               <l>And at the laſt together come</l>
+               <l>To his Honor and his Tomb.</l>
+               <l>Tho, when dead, his Friends may'nt raiſe</l>
+               <l>Enough to guild his Funeral Bays.</l>
+               <pb n="5" facs="tcp:100245:5"/>
+               <l>The <hi>Quacks</hi> as often as they will</l>
+               <l>Can get Licenſes to kill,</l>
+               <l>Whilſt the hungry Poet may</l>
+               <l>For an <hi>Imprimatur</hi> ſlay,</l>
+               <l>Till he has eaten up his Play.</l>
+               <l>Nothing that's witty now can paſs,</l>
+               <l>An heavy burden may fit an Aſs.</l>
+               <l>Who if by chance diſcerns the Wit,</l>
+               <l>His envious Pen will murther it.</l>
+               <l>He who himſelf does guilty know,</l>
+               <l>No lawful Satyr will allow;</l>
+               <l>For ſeeing there his ugly Face,</l>
+               <l>He will be ſure to break the Glaſs.</l>
+               <l>I ſpeak not this for all, but one</l>
+               <l>Whoſe Malice I've ſeverely known:</l>
+               <l>And all becauſe I told not quick</l>
+               <l>Who is Father to <hi>Melchiſedeck.</hi>
+               </l>
+               <l>As for his Name leave that alone;</l>
+               <l>There's ne're a Poet in the Town,</l>
+               <l>But wiſh the Man they ne're had known.</l>
+            </lg>
+            <lg>
+               <l>But prythee Muſe here calm thy Brow,</l>
+               <l>Leaſt thou ſhouldſt ſeem Revengeful too.</l>
+               <l>In every thing but Poetry</l>
+               <l>Something impoſſible we ſee:</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Rhet' rick,</hi> which we ſo much adore</l>
+               <l>N'ere had a perfect Orator.</l>
+            </lg>
+            <lg>
+               <l>The lingring <hi>Chimiſt</hi> blows his Fire</l>
+               <l>And waits till his own Lamp expire.</l>
+               <l>Searching for th' inchanted Stone</l>
+               <l>Till he himſelf's as cold as one.</l>
+               <pb n="6" facs="tcp:100245:6"/>
+               <l>The natural <hi>Philoſopher</hi>
+               </l>
+               <l>About perpetual motion keeps a ſlir;</l>
+               <l>But ſtraight his Engines reſt obtain,</l>
+               <l>And all the motion's in his Brain.</l>
+            </lg>
+            <lg>
+               <l>How nauſeous are <hi>Grammatick</hi> fools</l>
+               <l>Arm'd but with noiſe and canting Rules?</l>
+               <l>Where <hi>Lilly</hi> does debauch poor Verſe</l>
+               <l>And gibberiſh in Heroick dreſs.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Aſtronomy</hi> each faith engage,</l>
+               <l>And with dark Notions cheats the Age.</l>
+               <l>But take off their diſguiſe, you'll ſee</l>
+               <l>It is more feign'd than Poetry.</l>
+               <l>Elſe let it for a certain ſhow</l>
+               <l>Whether this Globe has wings or no,</l>
+               <l>Or <hi>Ovid</hi> blame, who ſaid the Sun</l>
+               <l>Did run away with <hi>Phaeton.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>What is <hi>Geometry</hi> I'de know,</l>
+               <l>But a ſalſe brat of fancy too?</l>
+               <l>If 'tis a Science, let it tell</l>
+               <l>How far from hence the Stars do dwell,</l>
+               <l>And the due proportion give between</l>
+               <l>A direct and a crooked Line.</l>
+            </lg>
+            <lg>
+               <l>And what is <hi>Logick</hi> but a cheat?</l>
+               <l>Nothing or ſomething worſe than it.</l>
+               <l>A Delphich Sword bent any way,</l>
+               <l>To make Truth yeild to Sophiſtry.</l>
+               <pb n="7" facs="tcp:100245:6"/>
+               <l>
+                  <hi>Arithmetick</hi> how little Art!</l>
+               <l>Poetry is not ſo confin'd:</l>
+               <l>One Unite ſpeak, can all thy Art</l>
+               <l>To the defects of Nature find.</l>
+            </lg>
+            <lg>
+               <l>Ye black Lectures of Mortality,</l>
+               <l>And of flegmatick Morality</l>
+               <l>Adue! Adue! I ſoar too high</l>
+               <l>For your ſhort Wings to follow me.</l>
+            </lg>
+            <lg>
+               <l>Speak dull <hi>Philoſopher,</hi> what's all</l>
+               <l>You in miſtake do Science call?</l>
+               <l>Since <hi>Socrates</hi> with much ado</l>
+               <l>Learnt only that he nothing knew.</l>
+            </lg>
+            <lg>
+               <l>Nothing is unconfin'd and free</l>
+               <l>Beſides the Soul of Poetry;</l>
+               <l>When it does on the Organs play,</l>
+               <l>Throw all your miſtick Books away,</l>
+               <l>And ſtudy Natures Library.</l>
+               <l>Move up to Heav'ns refulgent Throne,</l>
+               <l>There by the tab'ring Muſes drawn;</l>
+               <l>Firſt pauſe a while, then write, and all</l>
+               <l>The Gods to Convocation call.</l>
+               <l>Then with impartial Frowns ſurvey</l>
+               <l>Man varying in Apoſtacy.</l>
+               <l>Pitty poor Princes that do grone</l>
+               <l>Under the burden of a Crown</l>
+               <l>And contemn Riches, which we ſee</l>
+               <l>Is but a golden Slavery:</l>
+               <l>We're richer far in Poetry.</l>
+               <pb n="8" facs="tcp:100245:7"/>
+               <l>And when we puniſh Avarice</l>
+               <l>'Tis only 'cauſe we 'ld cure the Vice.</l>
+               <l>But the dull crowd our Power profane,</l>
+               <l>And ſay we only Write for gain.</l>
+               <l>Altho Experience proves this ſure,</l>
+               <l>'Tis only Writing makes us poor.</l>
+               <l>Yet we're ſo juſt, we'l doe the Law,</l>
+               <l>Tho ſhame is all the gain we draw.</l>
+               <l>And when we ſerve them with a Play,</l>
+               <l>We muſt like Catch-poles ſneak away.</l>
+               <l>But hold!</l>
+               <l>I'me almoſt ſtarved, as I'me a Sinner,</l>
+               <l>Prythee <hi>Jack,</hi> truſt me for a Dinner.</l>
+               <l>Poor Poet! what a Wretch thou art grown,</l>
+               <l>Caſt to a Dungeon from a Throne.</l>
+               <l>You who but now did reach the Skie.</l>
+               <l>Low as deſpair condemn'd to lie.</l>
+               <l>Thoſe ſoaring thoughts thou didſt admire,</l>
+               <l>With thy Poetick rage expire.</l>
+               <l>'Twas but a Dream: and now I ſee</l>
+               <l>Riddles untie themſelves to fetter thee.</l>
+               <l>The Angels height procur'd their thrall,</l>
+               <l>But 'tis thy lowneſs makes thee fall.</l>
+               <l>Had Nature giv'n thee a rich Mine,</l>
+               <l>Thou of all Fops hadſt happieſt been:</l>
+               <l>Thou hadſt not been expoſed thus,</l>
+               <l>Nor this complaint made thee ridiculous.</l>
+            </lg>
+            <lg>
+               <l>But now again my ſelf I grow;</l>
+               <l>I th' Poet am, yet wiſh I was not ſo.</l>
+               <l>Never poor Creature ſuch ſtrange Fortunes had,</l>
+               <l>A Poet's not himſelf, unleſs he's Mad.</l>
+               <pb n="9" facs="tcp:100245:7"/>
+               <l>Go backward Age, go backward Age,</l>
+               <l>And to <hi>Ben</hi>'s days reduce the Stage.</l>
+               <l>Whoſe eaſie Palats would commend,</l>
+               <l>What entertainments Heav'n did ſend.</l>
+               <l>Judges were then as Ladies now a days,</l>
+               <l>Whom any thing that's Fleſh and Bloud can pleaſe.</l>
+               <l>But now a Poet's counted out of faſhion,</l>
+               <l>And Wits the only drug in all the nation.</l>
+            </lg>
+            <lg>
+               <l>Nature and Fate ſuch Rivals are</l>
+               <l>That they can't Reign in the ſame Sphere.</l>
+               <l>And as when Kings each other thwart</l>
+               <l>Th' unhappy Subjects feel the ſmart;</l>
+               <l>So thoſe to whom Nature is kind</l>
+               <l>Muſt fortunes rage and malice find;</l>
+               <l>And till theſe friends and partners grow,</l>
+               <l>Who can have Wit and Money too?</l>
+               <l>I've often heard this queſtion riſe,</l>
+               <l>Whether Wit made Men Poor, or Poverty Men Wiſe?</l>
+               <l>'Twas Poverty firſt me a Poet made,</l>
+               <l>And I'de fain know him who is rich o'th' Trade.</l>
+               <l>But if the World has ſuch a Creature,</l>
+               <l>He is a Monſter and not made by Nature.</l>
+               <l>Poets muſt break before they well can doe,</l>
+               <l>And a great trade will make them bankrupts too,</l>
+               <l>They are good <hi>Chimiſts,</hi> tho, they do not know</l>
+               <l>To make imperfect Metals currant grow,</l>
+               <l>Yet what you give them, they'll ſtraight turn to Sack,</l>
+               <l>Nay if there's need, the very cloths o'th' back.</l>
+               <l>Then with that Sack they'l wondrous things prepare,</l>
+               <l>They'll Caſtles build, nay Kingdomes in the Air,</l>
+               <l>And give themſelves vaſt Lordſhips there.</l>
+               <pb n="10" facs="tcp:100245:8"/>
+               <l>And ſince they here ſo diſagree</l>
+               <l>About a paltry Lawrel-tree,</l>
+               <l>I wonder what a Devil will they doe,</l>
+               <l>When they hereafter to their lands will go?</l>
+               <l>But now I think on't they'll be all Gods there,</l>
+               <l>And every one will have a diſtinct Sphere.</l>
+               <l>For thoſe great Deities of which we read,</l>
+               <l>Were by th' Almighty Poets made;</l>
+               <l>And they who did thoſe God-heads make,</l>
+               <l>May at their pleaſure take them back.</l>
+            </lg>
+            <lg>
+               <l>Honeſt dear Reader, do not call</l>
+               <l>This Author mean and pittiful,</l>
+               <l>Tho he has ſpoken in his rage</l>
+               <l>The damn'd dull humour of the Age;</l>
+               <l>Yet by theſe following lines you'll ſee</l>
+               <l>His excellent good Company.</l>
+            </lg>
+         </div>
+         <div type="quotations">
+            <pb n="11" facs="tcp:100245:8"/>
+            <head>Quotations.</head>
+            <lg>
+               <head>
+                  <hi>Lacy</hi> in his Prologue to Monſieur <hi>Rogolle.</hi>
+               </head>
+               <l>I Am a Poet, and I'll prove it plain,</l>
+               <l>Both by my empty Purſe and empty Brain.</l>
+               <l>I've other Symptoms to confirm it too,</l>
+               <l>I've Great and Self-Conceit of what I do.</l>
+               <l>I have my little Cullies too i'th' Town</l>
+               <l>Both to admire my Works and lend a Crown.</l>
+               <l>My Poets Day I Morgage to ſome Citt,</l>
+               <l>At leaſt ſix Months before my Play is Writ;</l>
+               <l>And on that day away the Poet runs,</l>
+               <l>Knowing full well, in Sholes come all his Duns.</l>
+               <l>If theſe things make me not a proper Poet,</l>
+               <l>He that hath better Title let him ſhow it.</l>
+            </lg>
+            <lg>
+               <head>Lacy <hi>in his Prologue to</hi> Paſtor Fido.</head>
+               <l>WHO would not damn a ſilly Rhiming Fop?</l>
+               <l>When there is ſcarce a Foreman of a Shop,</l>
+               <l>With Senſe of Animal and Face of Stoick,</l>
+               <l>But Courts poor tawdry Sempſtreſs in Heroick:</l>
+               <l>Will make you Rhimes on Cakes and Ale, rehearſe</l>
+               <l>An Holyday-Treat at <hi>Iſlington</hi> in Verſe.</l>
+            </lg>
+            <lg>
+               <head>Otway <hi>in his Prologue to the</hi> Cheats of Schapin.</head>
+               <l>NOW Wit is grown ſo common, let me die,</l>
+               <l>Gentlemen ſcorn to keep it Company.</l>
+            </lg>
+            <pb n="12" facs="tcp:100245:9"/>
+            <lg>
+               <head>Leonard <hi>in his Prologue to the</hi> Country Innocence.</head>
+               <l>NEver was Wit ſo much abus'd before;</l>
+               <l>The Trade's grown common, and the gilting Whore</l>
+               <l>Debauch'd in every Street, at every Door.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Sir</hi> Charles Scroop <hi>in his Prologue to</hi> Alexander.</head>
+               <l>HOW hard the Fate is of that Scribling Drudg,</l>
+               <l>Who writes to all and yet ſo few can judg?</l>
+               <l>Wit, like Religion, once Divine was thought,</l>
+               <l>And the dull Crowd believ'd as they were taught;</l>
+               <l>Now each Fanatick Fool pretends to 'xplain</l>
+               <l>The Text, and does the ſacred Wit prophane.</l>
+            </lg>
+            <lg>
+               <head>Idem.</head>
+               <l>THen Fencer-like they one another hurt,</l>
+               <l>And with their Wounds, they make the Rabble Sport.</l>
+            </lg>
+            <lg>
+               <head>In the Prologue to the <hi>Debauchee.</hi>
+               </head>
+               <l>— A Poet's ſuch a Tool,</l>
+               <l>Fit to make nothing till he's made a Fool.</l>
+            </lg>
+            <lg>
+               <head>Dryden <hi>to</hi> Lee <hi>on his</hi> Alexander.</head>
+               <l>SO many Candidates there ſtands for Wit,</l>
+               <l>A place in Court is ſcarce ſo hard to get.</l>
+               <l>Deſert, how known ſo'ere, is long delay'd,</l>
+               <l>And then too Fools and Knaves are better pay'd.</l>
+            </lg>
+            <lg>
+               <head>Lee <hi>in his Epilogue to</hi> Alexander.</head>
+               <l>— How ought they to be curſt,</l>
+               <l>Who this cenſorious Age did poliſh-firſt.</l>
+               <l>Who the beſt Play for one poor Error blame,</l>
+               <l>As Prieſts againſt our Ladies Art declaim,</l>
+               <l>And for one Patch both Soul and Body damn.</l>
+            </lg>
+            <pb n="13" facs="tcp:100245:9"/>
+            <lg>
+               <head>In the Prologue to the <hi>Morning Ramble.</hi>
+               </head>
+               <l>Poets we juſtly may Wits Bubles call,</l>
+               <l>For they to almoſt nothing Venture all,</l>
+               <l>Hard Fate have they above all men beſide,</l>
+               <l>Behind ſome Curtain ſtill their Faults do hide,</l>
+               <l>Statesmen their Errors on their Agents lay,</l>
+               <l>'Tis chance of War makes Souldiers looſe the Day.</l>
+               <l>And the Phyſicians Shame Death ſweeps away:</l>
+               <l>But every Fool finds fault with ev'ry Play.</l>
+               <l>Things being ſo, it cannot be deny'd,</l>
+               <l>But to be Poet is a Mans Blind-ſide.</l>
+               <l>This is the Cauſe, why active Times produce</l>
+               <l>The feweſt Writers to the Stages uſe.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Sir</hi> Charles Sidly.</head>
+               <l>'TIs well that Wit has ſomething of the Mad,</l>
+               <l>Elſe how could Poets for the Stage be had?</l>
+            </lg>
+            <lg>
+               <head>Dryden <hi>in his Prologue to</hi> Circe.</head>
+               <l>— The Brothers of the Trade.</l>
+               <l>Who ſcattering their Infection through the Pit,</l>
+               <l>With aking Hearts, and empty Purſes ſit.</l>
+            </lg>
+            <lg>
+               <head>Settle <hi>in his Prologue to the</hi> Conqueſt of China.</head>
+               <l>WHen our Fore-Fathers did our Judges ſit,</l>
+               <l>And Spite and Malice were not counted Wit;</l>
+               <l>Mens Appetites lay quite another way,</l>
+               <l>They went to'a Play-Houſe then to like a Play,</l>
+               <l>They came to meet Diverſion from the Stage,</l>
+               <l>But 'tis not that which brings them here this Age.</l>
+               <l>That Mode of liking Plays is as much out</l>
+               <l>As 'tis to go to Church to be Devout.</l>
+               <l>Fancy and Wit can no more pleaſe them here,</l>
+               <l>Than Faith and Reaſon can perſuade them there.</l>
+            </lg>
+            <pb n="14" facs="tcp:100245:10"/>
+            <lg>
+               <head>
+                  <hi>Shadwell</hi> in his Prologue to the <hi>Virtuoſo.</hi>
+               </head>
+               <l>NOW Drudges of the Stage muſt oft appear,</l>
+               <l>They muſt be bound to Scrible twice a Year.</l>
+               <l>And like the Thred-bareVicar, who muſt Toil,</l>
+               <l>Whilſt the Fat Lazy Doctor bears the Spoil.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Dryden</hi> in his Prologue to —</head>
+               <l>THE Clergy thrive and the Litigious Bar:</l>
+               <l>Dull Heroes fatten on the Spoùs of War.</l>
+               <l>All Southern Vices, Heav'u be prais'd, are here,</l>
+               <l>But Wit and Luxury they count too deer.</l>
+            </lg>
+            <lg>
+               <head>In the Prologue to the <hi>Rehearſal.</hi>
+               </head>
+               <l>IF it be true that monſtrous Births Preſage</l>
+               <l>The following Miſchiefs that afflict the Age;</l>
+               <l>And ſad Diſaſters to the State Proclaim:</l>
+               <l>Plays without Head or Tail may do the ſame.</l>
+               <l>Wherefore for ours and for our Countrys Peace,</l>
+               <l>Let this Prodigious way of Writing ceaſe.</l>
+               <l>Let's have at leaſt once in our Lives a Time,</l>
+               <l>When we may have ſome Reaſon, not all Rhime.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Dryden</hi> in his Epilogue to the <hi>Indian Queen.</hi>
+               </head>
+               <l>Their Confidence</l>
+               <l>Is plac'd in lofty Sounds and humble Senſe.</l>
+               <l>Then ſee the little Infants of the Time,</l>
+               <l>That write New Songs, and Truſt in Tune and Rhime.</l>
+            </lg>
+            <lg>
+               <head>
+                  <hi>Lacy</hi> in his Prologue to the <hi>Dumb Lady.</hi>
+               </head>
+               <l>HEre I am, and not aſham'd who know it,</l>
+               <l>I humbly come your <hi>forma Pauper is</hi> Poet.</l>
+            </lg>
+            <pb n="15" facs="tcp:100245:10"/>
+            <lg>
+               <head>
+                  <hi>Crown</hi> in his Prologue to the <hi>Country-Wit.</hi>
+               </head>
+               <l>THE Mighty Wits now come to a New Play,</l>
+               <l>Only to taſt the Scraps they throw away;</l>
+               <l>Poets now Treat them at their own Expence,</l>
+               <l>All but the Poets now abound in Senſe.</l>
+               <l>City and Country now with Wit's o'reflown,</l>
+               <l>Weeds grow no faſter there, than Wits i'th' Town.</l>
+               <l>Plays are ſo common, they are little priz'd,</l>
+               <l>And to be but a Poet is deſpis'd.</l>
+            </lg>
+            <lg>
+               <head>In the Epilogue to the <hi>Morning Hamble.</hi>
+               </head>
+               <l>Some dare ſay</l>
+               <l>They have not ſeen of late a good New Play.</l>
+               <l>Not but this Age has many Men as Wiſe,</l>
+               <l>But wiſely they this begging Art deſpiſe.</l>
+               <l>And two to one was <hi>Shakeſphear</hi> here to Day,</l>
+               <l>He'd have more Wit than e're to Write a Play.</l>
+            </lg>
+            <lg>
+               <head>Whicherley <hi>in his Prologue to</hi> Love in a Wood.</head>
+               <l>YOU hardned Renegado Poets, who</l>
+               <l>Treat Rhiming Brothers worſe than <hi>Turks</hi> would do.</l>
+               <l>See we in vain your Pity now would crave,</l>
+               <l>Who for your Selves, alas! no Pity have,</l>
+               <l>And your own graſping Credit will not ſave.</l>
+            </lg>
+            <lg>
+               <head>In the Epilogue to the <hi>Dutch Lover.</hi>
+               </head>
+               <l>Hlſs 'em and Cry 'em down, 'tis all in Vain,</l>
+               <l>Incorrigible Scriblers can't refrain.</l>
+               <l>But impudently in th' old Sin engage,</l>
+               <l>Tho doom'd before, nay baniſh'd from the Stage.</l>
+            </lg>
+            <pb n="16" facs="tcp:100245:11"/>
+            <lg>
+               <head>
+                  <hi>Durfey</hi> in his Prologue to the <hi>Fond Husband.</hi>
+               </head>
+               <l>ADulterate Age! where Prudence is a Vice,</l>
+               <l>And Wit's as ſcandalous as Avarice.</l>
+               <l>Yet in deſpight of this, ye're Poets too;</l>
+               <l>And what two Fops rail at, a third will do.</l>
+               <l>Upon our Priviledges you encroach,</l>
+               <l>And with dull Rhymes, the Noble Art debauch.</l>
+            </lg>
+         </div>
+         <div type="verse">
+            <head>The APOLOGY To the Quoted POETS.</head>
+            <l>SIrs I expect tho not deſerve your Frown;</l>
+            <l>Leſt 'cauſe I've mixt your Muſes with my own.</l>
+            <l>Not that I dar'd to touch your Character,</l>
+            <l>Who want not Praiſe, nor can a Cenſure fear.</l>
+            <l>All I deſign'd, was to agree with you,</l>
+            <l>And mean the ſelf ſame Perſons that You do.</l>
+            <l>Not that I think you on each other fall;</l>
+            <l>If ſo, ſome Critick may ſuſpect ye all.</l>
+            <l>But I your Names with Sacred Thoughts adore;</l>
+            <l>Yet ſhould I happen to profane your Power,</l>
+            <l>You've no redreſs we are ſo far apart;</l>
+            <l>I fear no Wounds from any Engliſh Dart:</l>
+            <l>For e're the Printer will to <hi>Finis</hi> come,</l>
+            <l>On the Loud Seas I cannot hear the Storm.</l>
+            <l>Yet was I Conſcious of a Guilt ſo high,</l>
+            <l>I'de with Wing'd Haſt to <hi>Rome</hi>'s great Idol flie,</l>
+            <l>And on his Toe would Kiſs the ſin away.</l>
+         </div>
+         <div type="essay">
+            <pb n="17" facs="tcp:100245:11"/>
+            <head>THE CHARACTER OF POETRY.</head>
+            <p>THat which gave Birth to Poetry, and hath ſupported its Reputation among the moſt Ingenious of every Age, is the deſire of Imi<g ref="char:EOLhyphen"/>tation which is interwoven with every Man's Eſſence. Hence we admire the well-drawn Pictures of thoſe dead Bodies, whoſe Original we have in Horror. And we are raviſh'd to hear the Voice of a Swine Naturally counterfeited, tho we hate it in that Ani<g ref="char:EOLhyphen"/>mal. So Poetry and Painture in ſome manner expreſſeth every thing that is done in Nature. Whence Poetry is term'd a ſpeaking Picture, and a Picture dumb Poetry. And the Word Poet does not ſignify one that Feigns but one that Makes. As when he ſpeaks of a Tempeſt, he muſt make the Winds Mutiny, Ships Split, Mountains of Water Claſh, and looſe themſelves in Gulfs. Which makes Poetry ſo difficult, and conſequently ſo rare and admirable, that few ſucceed well in it.</p>
+            <p>Another Excellency in Poetry is its Harmony, Natu<g ref="char:EOLhyphen"/>ral not only to Man; but to the meaneſt Individual, which God hath created in Number and Meaſure: Which
+<pb n="18" facs="tcp:100245:12"/>made the <hi>Pythagoreans</hi> ſay, that not only the Celeſtial Bodies make a moſt agreeable Conſort, but alſo the Plants by their Proportions, and the Beaſts by their Motions, chant meaſured Odes in praiſe of their Creator. There<g ref="char:EOLhyphen"/>fore with more Reaſon muſt Man (whoſe Soul is a num<g ref="char:EOLhyphen"/>ber moveing of it ſelf) be delighted with numerous Lan<g ref="char:EOLhyphen"/>guage, which is Poetry, the moſt ſenſible Effect of that Divine Harmony, which is infus'd into his Body. And we may make a Judgment of good from vulgar Wits by their Delight or Diſaffection to Poetry. For if a Man ought to be regular in his Actions, Why not in his Words? the Image of his Reaſon, as Reaſon is of his Soul. As if you ſhould ſay that the well regulated Dance of a Ball, ought to be leſs priz'd than an ordinary Walk, or Country-Dance.</p>
+            <p>Moreover Poetry hath ſuch power over Mens Minds, that <hi>Tyrtoeus</hi> animated his Souldiers to fight by the rehear<g ref="char:EOLhyphen"/>ſal of his Verſes; which was alſo the Cuſtom of the <hi>Ger<g ref="char:EOLhyphen"/>mans,</hi> when they were to charge their Enemies. <hi>Moſes, David,</hi> and many other Prophets accounted nothing more worthy than Poetry, to ſing the Praiſes of God. And the firſt Poets, as <hi>Muſoeus, Orpheus</hi> and <hi>Linus</hi> were the Divines of Paganiſm. Yea the Gods of Antiquity af<g ref="char:EOLhyphen"/>fected to deliver their Oracles in Verſe. So did Legiſla<g ref="char:EOLhyphen"/>tors their Laws to render them more venerable.</p>
+            <p>Beſides they greatly help the Memory; the Cadence or Meaſure ſerving as a Rule to the Mind to keep it from being at a loſs. Poetry alone among all the Arts ſupplies Praiſe to Virtue, the Rampant Stile of Rhetorical Diſ<g ref="char:EOLhyphen"/>courſe, tho it borrow its faireſt Flowers and ſquare Peri<g ref="char:EOLhyphen"/>ods from Poetry, being not comparable to it, which is far more ſublime, and conſequently more fit to immorta<g ref="char:EOLhyphen"/>lize
+<pb n="19" facs="tcp:100245:12"/>the Memory of Heroick Actions. Upon which ac<g ref="char:EOLhyphen"/>count the Muſes were believ'd the Daughters of <hi>Mnemo<g ref="char:EOLhyphen"/>ſyne</hi> or Memory. Tho Poets have been ſometimes expell'd out of States, ſo have Philoſophers, Phyſicians, Mathe<g ref="char:EOLhyphen"/>maticians, and many other Profeſſors of Arts, acknow<g ref="char:EOLhyphen"/>ledged nevertheleſs uſeful to Humane Society. If ſome of them have been Laſcivious, others Impious, others Slanderous, thoſe are the Faults of the Poets not Poetry. And as the more delicate any wine is, the more hurtful its Exceſs is to the Body; ſo Poetry is ſo much the more excellent by how much its abuſe is noxious. <hi>Plato,</hi> who advis'd the baniſhing of it out of his imaginary Com<g ref="char:EOLhyphen"/>mon- Wealth, calling it a ſweet Poyſon, deſerv'd more than it to be really interdicted. There not being in all the Poets ſuch Fables, Impieties and Impurities, as that of his <hi>Convivium,</hi> his <hi>Phoedrus,</hi> and ſome other Pieces. In the mean time he is forc'd to admire them, to call them the Sons and Interpreters of the Gods, yea Divine and the Fathers of Wiſdom. For the Raptures cannot be cal<g ref="char:EOLhyphen"/>led Folly, unleſs in that Senſe as <hi>Ariſtotle</hi> ſaith, To Phi<g ref="char:EOLhyphen"/>loſophize well, a Man muſt be beſides himſelf. But there Wiſdom being extream, and their Motions unknown to the vulgar, therefore they call that Fury, which they ought to call the higheſt pitch and point of Wiſdom, term'd <hi>Enthuſiaſm</hi> or Divine Inſpiration, becauſe it ſur<g ref="char:EOLhyphen"/>paſſeth the reach of Man. And indeed every one acknow<g ref="char:EOLhyphen"/>ledges in Poetry ſome Character of Divinity. And there<g ref="char:EOLhyphen"/>fore 'tis received by all the World, and ſerves for a guide and introducer to great Perſons, who otherwiſe would not give audience, but like that well in Verſe, which they would blame in Proſe. Which obliged <hi>Sylla</hi> to reward the Good, that they might be encouraged to continue their
+<pb n="20" facs="tcp:100245:13"/>Divine Works, and the bad Poets on condition that they made no more. And 'tis of theſe, as of ſome Rhymes of our times that they ſpeak, who blame Poetry; in whoſe reproches the true Poets are no more concern'd than Phyſitians in the infamy of Mountebanks. The Fables of the Antient Poets are full of Myſteries, and ſerve for ornament to the Sciences, and to Divinity it ſelf. Nor has variety of Wit appear'd in any Science more than Po<g ref="char:EOLhyphen"/>etry, which ſerves not barely to teach and inſtruct, as the other Liberal Sciences, but withal to recreate and delight, which is an excellent Method to prevent the Diſguſt, which Diſciplines bring even in their Rudiments.</p>
+            <p>And if they have complain'd in all Ages of not advancing their fortunes, this doth not argue any demerit of theirs, but rather the want either of judgment or gratitude in others.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
